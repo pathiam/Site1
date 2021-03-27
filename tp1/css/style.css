@@ -1,0 +1,117 @@
+body{
+	padding: 0;
+	margin: 0;
+	
+}
+:root{
+	--largeur-min: 10rem;
+    --largeur-max: 30rem;
+    --hauteur-max: 25rem;
+    --couleur-fond: #0f3c66;
+    --couleur-texte-important: #f9f9f9;
+    --couleur-texte-secondaire: #0c2727;
+    --couleur-texte-labeur: #2a2a2a;
+    --couleur-icone: #dcb872 ;
+    --couleur-bordure-fenetre: #aaa;
+}
+header{
+	background-image: url("../images/UNF_GCASsite_sustainpage_hero.jpg");
+	background-position: center;
+	background-size: cover; 
+	overflow: hidden;
+}
+header div{
+	margin: 1rem;
+	background-color: rgba(38, 45, 55, 0.4) ;
+}
+header h1{
+	color: seashell;
+	font-size: 1.5rem;
+	padding: 0.5rem;
+	font-family: Arial, Helvetica, sans-serif;
+	display: flex;
+	justify-content: center;
+}
+header h2{
+	color: var(--couleur-icone);
+	padding: 1rem;
+	align-items: center;
+	display: flex;
+	justify-content: center;
+	font-family: 'Courier New', Courier, monospace;
+	font-size: 0.9rem;
+}
+nav{
+	background-color: var(--couleur-fond);
+	padding: 0.5rem;
+	margin: 0;
+}
+nav ul{
+	display: flex;
+	justify-content: space-around;
+	color: white;
+	
+}
+nav ul li{
+	background-color: rgba(38, 45, 55, 0.4) ;
+	display: inline-block;
+}
+nav ul li:hover{
+	background-color: rgba(38, 45, 55, 0.4) ;
+}
+nav ul li a:hover{
+	color: var(--couleur-icone);
+}
+main h2{
+	color: var(--couleur-fond);
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	display: flex;
+	justify-content: center;
+	margin: 2rem;
+	font-size: 1.7rem;
+}
+section p{
+	margin: 1.5rem;
+    font-size: 0.7rem;
+}
+.article_corps{
+	margin: 0;
+	padding: 0;
+	
+}
+.un{
+	background-image: url("../images/aurore_boreale.jpg");
+}
+.deux{
+	background-image: url("../images/chuteDEau.jpg");
+}
+.trois{
+	background-image: url("../images/sapin.jpg");
+}
+article div{
+	background-size: cover;
+	padding: 3rem;
+}
+article div h3{
+	color: var(--couleur-texte-important);
+	font-size: 0.8rem;
+	padding: 0.5rem;
+	margin: -3rem;;
+	background-color: rgba(224, 231, 240, 0.4);
+}
+button{
+	background-color: var(--couleur-fond);
+	border-radius: 0.3rem;
+	margin: 1rem;
+	color: whitesmoke;
+	padding: 0.3rem;
+}
+footer{
+	background-color: var(--couleur-fond);
+}
+footer a{
+	display: flex;
+	color: whitesmoke;
+	font-size: 0.5rem;
+	padding: 0.5rem;
+}

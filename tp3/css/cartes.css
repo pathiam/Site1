@@ -1,0 +1,31 @@
+    /*** exercice n°2 ***/
+    /*** zone des cartes *********/
+    
+    .cartes {  
+        padding: 0 1rem;
+       
+        display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;  
+    }
+    
+    .carte{
+        flex: 0 0 15rem ;
+    }
+    @media screen and (min-width:20rem){
+
+        .carte {
+            flex: 0 0 45%;
+        }
+    }
+
+    @media screen and (min-width:36rem){
+        .carte {
+            flex: 0 0 30%;
+        }
+    }
+    @media screen and (min-width:48rem){
+        .carte {
+            flex: 0 0 15%;
+        }
+    }

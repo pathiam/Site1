@@ -1,0 +1,196 @@
+/**** look.css ***/
+body{
+    --couleur-fond-fonce :#315F4A ;
+    --couleur-texte-sur-fond-fonce : #F7F7F7 ;
+    --couleur-texte-sur-fond-clair : #333 ;
+/*    --couleur-fond-menu-hover : #1F2F1D ;*/
+/*     --couleur-fond-menu-actif :#507D60 ;*/
+   
+    font-family: arial ;
+}
+/*** Règles générales  ***/
+
+strong{ font-weight: bold ;}
+
+*, *::before, *::after{ box-sizing: border-box ;}
+
+
+/**** Header ****/
+header{
+    margin: O;
+    padding: 0;
+    background-image: url("../images/modele.jpg");
+    background-size: cover;
+
+}
+header h1{
+    align-items: center;
+    justify-content: center;
+    color: var(--couleur-texte-sur-fond-fonce);
+    font-size: 3rem;
+    font-weight: bold;
+    display: flex;
+    padding: 3rem;
+}
+header h2{
+    align-items: center;
+    justify-content: center;
+    color: var(--couleur-texte-sur-fond-fonce);
+    font-size: 1.5rem;
+    display: flex;
+    margin: 2rem;
+    padding: 2rem;
+   
+}
+
+
+/****** sections **********/
+section{
+    margin: 0;
+    padding: 0;
+
+}
+section h2{
+    background-image: url("../images/banner1.jpg");;
+    color: white;
+    font-size: 1rem;
+    padding: 0.5rem;
+    
+}
+section article{
+    margin: 1rem;
+}
+section article h3 {
+    font-size: 1rem;
+    font-weight: bolder;
+    padding-bottom: 0.5rem;
+}
+section article h3 p{
+    font-size: 1rem;
+}
+
+section ul{
+    list-style-type: circle;
+}
+section ul li {
+    padding: 0.1rem;
+    margin-left: 3rem;
+}
+section  figure{
+    margin: 0;
+    padding: 0;
+}
+section figure figcaption{
+    margin: 1rem;
+}
+section  figure figcaption h3{
+    font-size: 1rem;
+    font-weight: bolder;
+    padding-bottom: 0.5rem;
+}
+section figure img{
+    background-size: cover;
+    margin: 0;
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+    margin-top: 1rem;
+    height: 140px;
+}
+/*** Références ************/
+
+
+
+
+/**** solutions ******/
+
+
+
+
+
+/*** bouton contact ******/
+main h4 {
+        background-image: url("../images/bg_footer.jpg");
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0.5rem;
+        font-weight: bold;
+        width: 150px;
+        margin-bottom: 2rem;
+        margin-left: 5rem;
+    }
+
+
+main h4 a{
+        font-size: 1rem;
+        color: var(--couleur-texte-sur-fond-fonce);
+        text-decoration: none;
+}
+
+
+/****** Footer *******/
+
+footer{
+    /* Positionnement flex pour placer les deux fils du footer côte à côte */  
+    display: flex ;
+    flex-wrap: wrap ;
+    justify-content: space-between ;
+    background-image: url("../images/bg_footer.jpg");
+    padding: 1rem;
+}
+footer h2{
+    font-size: 1rem;
+    color: var(--couleur-texte-sur-fond-fonce);
+}
+footer h3{
+    font-size: 1rem;
+    color: var(--couleur-texte-sur-fond-fonce);
+}
+
+
+
+
+/***** PAGE CONTACTS ******/
+/* Ici on indique les spécificités de la page contact
+    on aurait aussi pu créer une feuille de style supplémentaire
+    Dans ce cas, la page contact serait liée à la feuil de style principal.css et contact.css */ 
+
+
+/**** Coordonnées *****/
+
+.coordonnee{
+margin-bottom: 6rem;
+}
+
+/***** Carte ****/
+iframe{
+    width: 100%;
+}
+
+
+/*** Formulaire ****/
+.formulaire article{
+    padding: 2rem;
+}
+.formulaire article textarea{
+    padding: 1rem;
+    height: 150px;
+}
+.formulaire article h4{
+    background-image: url("../images/bg_footer.jpg");
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5rem;
+    font-weight: bold;
+    width: 150px;
+    margin-bottom: 2rem;
+    margin-left: 1rem;
+    margin-top: 2rem;
+}
+.formulaire article h4 a{
+    font-size: 1rem;
+    color: var(--couleur-texte-sur-fond-fonce);
+    text-decoration: none;
+}

@@ -1,0 +1,43 @@
+/*** gabarit-layout.css ***/
+
+* {
+    box-sizing: border-box;
+}
+.menu-principal{
+    display: flex;
+    justify-content: space-around;
+}
+.menu-secondaire{
+    width: 15rem;
+}
+.principal{
+    background-image: url("../images/home_image.jpg");
+    width: 80%;
+    height: 40rem;
+    background-size: cover;
+}
+
+img{
+    width: 1rem;
+}
+.etoile{
+    display: flex;
+    justify-content: center;
+    margin: 1rem;
+}
+
+.principal ul li:nth-child(even) {
+    flex-grow: 1;
+    flex-basis: 20rem;
+    padding-left: 10rem;
+ }
+.principal ul li:nth-child(odd) {
+    flex-grow: 0;
+}
+
+.principal ul li img:hover {
+    width: 1rem;
+    display: flex;
+    justify-content: flex-end;
+    
+}
